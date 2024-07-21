@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.BgImg {
+    background-image: url(./B-G-3.jpg );
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+    /* Puts the image behind other content */
+}
+
+.nav-links .left {
+    margin-right: 250px;
+    margin-left: 25px;
+}
+
+.nav-links .right {
+    margin-left: 20px;
+    /* Adjust the spacing as needed */
+}
+
+nav {
+    float: left;
+    padding: 10px;
+    border: 2px solid white;
+    background-color: #5f5353b8;
+    width: 95%;
+    margin-left: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    /* display:inline; */
+    font-size: 40px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline;
+}
+
+
+
+
+
+.nav-links li a:hover {
+    background-color: #555;
+}
+
+
+/* .burger {
+    display: none;
+    cursor: pointer;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px;
+    transition: transform 0.3s, background-color 0.3s;
+} */
